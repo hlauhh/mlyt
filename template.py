@@ -30,7 +30,6 @@ list_of_files = [
     "pyproject.toml",
     "research/trials.ipynb",
     "templates/index.html",
-    "test.py"
 
 
 ]

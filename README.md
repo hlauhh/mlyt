@@ -98,7 +98,7 @@ dagshub.init(repo_owner='hlauhh', repo_name='mlyt', mlflow=True)
 
 	
 ## 3. Create ECR repo to store/save docker image
-    - Save the URI: 566373416292.dkr.ecr.ap-south-1.amazonaws.com/mlproj
+    - Save the URI: 897722669709.dkr.ecr.ap-southeast-2.amazonaws.com/mlyt
 
 	
 ## 4. Create EC2 machine (Ubuntu) 
