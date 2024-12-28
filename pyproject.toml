@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mlProject"
+version = "0.1.0"
+description = "A small Python package for ML app following YouTube tutorial"
+readme = "README.md"
+authors = [
+    { name = "hlauhh", email = "lauhoihei@hotmail.com" }
+]
+license = { text = "MIT" }
+homepage = "https://github.com/hlauhh/mlyt"
+repository = "https://github.com/hlauhh/mlyt"
+documentation = "https://github.com/hlauhh/mlyt"
+
+[project.urls]
+Bug Tracker = "https://github.com/hlauhh/mlyt/issues"
+
+[project.dependencies]
+numpy = ">=1.19.0"
+pandas = ">=1.1.0"
+
+[project.optional-dependencies]
+test = [
+    "pytest",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
