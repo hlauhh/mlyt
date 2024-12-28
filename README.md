@@ -128,15 +128,15 @@ dagshub.init(repo_owner='hlauhh', repo_name='mlyt', mlflow=True)
 
 # 7. Setup github secrets:
 
-    AWS_ACCESS_KEY_ID=
+    AWS_ACCESS_KEY_ID = 
 
-    AWS_SECRET_ACCESS_KEY=
+    AWS_SECRET_ACCESS_KEY =
 
-    AWS_REGION = us-east-1
+    AWS_REGION = ap-southeast-2
 
-    AWS_ECR_LOGIN_URI = demo>>  566373416292.dkr.ecr.ap-south-1.amazonaws.com
+    AWS_ECR_LOGIN_URI = 897722669709.dkr.ecr.ap-southeast-2.amazonaws.com
 
-    ECR_REPOSITORY_NAME = simple-app
+    ECR_REPOSITORY_NAME = mlyt
 
 
 
