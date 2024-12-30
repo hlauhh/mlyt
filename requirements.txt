@@ -1,15 +1,15 @@
 pandas
+mlflow==2.2.2
+notebook
 numpy
 scikit-learn
-mlflow==2.2.2
-joblib
 matplotlib
-python-box
+python-box==6.0.2
 pyYAML
-types-PyYAML
 tqdm
-ensure
+ensure==1.0.2
+joblib
+types-PyYAML
 Flask
 Flask-Cors
-notebook
-dagshub
+-e .
