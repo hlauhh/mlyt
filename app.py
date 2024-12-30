@@ -1,9 +1,7 @@
 from flask import Flask, render_template, request
-import os
 import numpy as np
 from mlProject.pipeline.prediction import PredictionPipeline
-import os
-print(os.getcwd())
+
 
 app = Flask(__name__)  # initializing a flask app
 
@@ -51,8 +49,6 @@ def index():
 
     else:
         return render_template('index.html')
-
-
 
 
 if __name__ == "__main__":
