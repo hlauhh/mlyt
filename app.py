@@ -2,6 +2,8 @@ from flask import Flask, render_template, request
 import os
 import numpy as np
 from mlProject.pipeline.prediction import PredictionPipeline
+import os
+print(os.getcwd())
 
 app = Flask(__name__)  # initializing a flask app
 
@@ -54,5 +56,5 @@ def index():
 
 
 if __name__ == "__main__":
-    # app.run(host="0.0.0.0", port = 8080, debug=True)
-    app.run(host="0.0.0.0", port = 8080)
+    app.run(host="0.0.0.0", port = 8080, debug=True)
+    # app.run(host="0.0.0.0", port = 8080)
